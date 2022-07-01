@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.hero-top{
+    padding-top: 40px;
+    padding-left: 70px;
+    height: 600px;
+    background-color: aliceblue;
+    background-image: url('./images/bg-hero-desktop.svg');
+}
+.logo img{
+    width: 200px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header button{
+    margin-right: 150px;
+    width: 170px;
+    height: 40px;
+    border-radius: 40px;
+    border: none;
+    background-color: white;
+    font-weight: bolder;
+    box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.207);
+    cursor: pointer;
+}
+.left{
+    margin-top: 100px;
+    width: 35%;
+}
+.left h1{
+    font-size: 40px;
+}
+.left p{
+    margin-top: 25px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.782);
+    line-height: 22px;
+}
+.get-started{
+    margin-top: 30px;
+    width: 230px;
+    height: 45px;
+    border-radius: 40px;
+    border: none;
+    background-color: rgb(255, 41, 141);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all .2s ease;
+}
+.get-started:hover{
+   background-color: rgba(255, 41, 141, 0.512);
+}
+.hero-text{
+    display: flex;
+}
+.right img{
+    margin-top: 70px;
+    margin-left: 100px;
+    width: 600px;
+}
+.info{
+    display: flex;
+    width: 1200px;
+    height: 400px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.207);
+    margin-left: 70px;
+    margin-top: 100px;
+}
+.sideL{
+    width: 45%;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+.sideL p{
+    margin-top: 20px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.439);
+    font-weight: 500;
+}
+.try{
+    transition: all .2s ease;
+}
+.try:hover{
+    color: rgba(0, 0, 0, 0.204);
+}
+.sideR img{
+    width: 400px;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+.midleft img{
+     width: 400px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.midright {
+     width: 50%;
+    padding-top: 100px;
+    padding-left: 250px;
+}
+.midright p{
+    margin-top: 20px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.439);
+    font-weight: 500;
+}
+.ready{
+    width: 600px;
+    height: 200px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.207);
+    margin-left: 400px;
+    align-items: center;
+    margin-top: 100px;
+    padding-top: 40px;
+    padding-left: 110px;
+    border-radius: 10px;
+    z-index: 2;
+    position: relative;
+    top: 60px;
+    background-color: white;
+}
+.ready button{
+    margin-left: 70px;
+}
+footer{
+    z-index: 1;
+    background-color: rgb(2, 20, 36);
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    height: 450px;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+.location{
+    padding-top: 30px;
+    display: flex;
+    
+    line-height: 20px;
+}
+.location p{
+    font-size: 14px;
+    
+}
+.location img{
+    margin-right: 10px;
+    margin-top: 5px;
+    width: 20px;
+    height: 20px;
+}
+.call{
+    display: flex;
+    margin-top: 20px;
+}
+.call p{
+    font-size: 14px;
+}
+.call img{
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.mail{
+    margin-top: 20px;
+    display: flex;
+}
+.mail img{
+    margin-right: 10px;
+    width: 15px;
+    height: 15px;
+    margin-top: 5px;
+}
+.links{
+    margin-right: 150px;
+    display: flex;
+}
+.menace{
+    margin-top: 70px;
+    margin-right: 120px;
+    margin-left: 200px;
+    width: 150px;
+}
+.links ul{
+    list-style-type: none;
+    line-height: 35px;
+}
+.links a{
+    text-decoration: none;
+    color: white;
+}
+
+.parttwo{
+    margin-top: 70px;
+    margin-right: 50px;
+    width: 100px;
+}
+.socials i{
+    border: none;
+    border-radius: 50%;
+    border: 1px solid white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-right: 5px;
+    cursor: pointer;
+
+}
+
+.medias{
+    margin-top: 70px;
+    margin-right: 70px;
+}
+.rights{
+    margin-top: 130px;
+    width: 250px;
+    font-size: 12px;
+}

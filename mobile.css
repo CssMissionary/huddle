@@ -1,0 +1,118 @@
+.hero-top{
+    height: 800px;
+}
+.logo img{
+    width: 150px;
+    margin-left: -40px;
+}
+.try{
+    width: 120px;
+    margin-left: 60px;
+}
+.hero-text{
+    flex-direction: column;
+}
+.left{
+    width: 100%;
+}
+.left h1{
+    font-size: 25px;
+    text-align: center;
+    padding: 0 30px;
+    margin-left: -60px;
+}
+.left p{
+    text-align: center;
+    margin-left: -60px;
+    padding: 0 50px;
+}
+.right img{
+    width: 300px;
+    margin-left: -30px;
+}
+.info{
+    flex-direction: column;
+    width: 320px;
+    margin-left: 30px;
+    height: 500px;
+}
+.sideL{
+    width: 100%;
+    order: 2;
+    padding: 0;
+    text-align: center;
+    margin-top: 30px;
+} 
+.sideL p{
+    width: 100%;
+    padding: 0 20px;
+}
+.sideR img{
+    width: 250px;
+    margin: 0;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.midleft img{
+    width: 250px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.midright{
+    width: 100%;
+    padding: 0;
+    text-align: center;
+    margin-top: 30px;
+}
+.midright p{
+    width: 100%;
+    padding: 0 20px;
+}
+.ready{
+    width: 320px;
+    height: 150px;
+    margin: 0;
+    margin-left: 30px;
+    padding: 0;
+}
+.ready h1{
+    text-align: center;
+    font-size: 18px;
+    padding-top: 30px;
+}
+.ready button{
+    width: 200px;
+    margin: 0;
+}
+.ready a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 20px;
+}
+footer{
+    height: 640px;
+    flex-direction: column;
+    justify-content: none;
+    padding: 0 30px;
+    padding-top: 100px;
+}
+footer .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.links{
+    flex-direction: column;
+}
+.menace{
+    margin-left: 10px;
+    margin-right: 0;
+    width: 100%;
+}
+.parttwo{
+    margin-top: 0;
+    margin-left: 10px;
+}
+

@@ -203,19 +203,6 @@ footer{
     margin-right: 50px;
     width: 100px;
 }
-.socials i{
-    border: none;
-    border-radius: 50%;
-    border: 1px solid white;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    margin-right: 5px;
-    cursor: pointer;
-
-}
-
 .medias{
     margin-top: 70px;
     margin-right: 70px;
@@ -224,4 +211,10 @@ footer{
     margin-top: 130px;
     width: 250px;
     font-size: 12px;
+}
+.socials img{
+    margin-right: 20px;
+}
+.none{
+    display: none;
 }

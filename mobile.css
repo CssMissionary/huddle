@@ -16,7 +16,7 @@
     width: 100%;
 }
 .get-started{
-    margin-left: 0px;
+    margin-left: 20px;
 }
 .left h1{
     font-size: 25px;
@@ -126,8 +126,7 @@ footer .logo{
     display: none;
 }
 .links{
-    margin-top: -100px;
-    padding: 0;
+   display: none;
 }
 .huddle .socials{
     display: block;
